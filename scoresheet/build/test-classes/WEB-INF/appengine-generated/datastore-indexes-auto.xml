@@ -1,0 +1,11 @@
+<!-- Indices written at Sat, 6 Aug 2011 12:30:36 JST -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Exam" ancestor="false" source="auto">
+        <property name="chapterNo" direction="asc"/>
+        <property name="questionNo" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
